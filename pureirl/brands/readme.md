@@ -1,5 +1,5 @@
 # PureIRL Network by PureMoto: Integration for Brands
- 
+
 The PureIRL Network empowers local brick & mortar stores by surfacing inventory information directly to those customers at peak engagement. [Learn more.](https://pureirl.com)
 
 This document services as documentation for enabling Brand Partner websites to display live inventory levels for their products in local brick & mortar stores.
@@ -14,7 +14,7 @@ The PureIRL snippet is a block javascript code that needs to be placed in your w
 
 ##### Snippet:
 
-```js 
+```js
 <script>(function(){var e=window,o=e.PureIRL=e.PureIRL||[];if(!o.init)if(o._isLoaded)e.console&&console.error&&console.error("PureIRL snippet included twice.");else{var n=document;o._isLoaded=!0,o.load=function(){var e=n.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://puremoto.com/irl/api/embed";var o=n.getElementsByTagName("script")[0];o.parentNode.insertBefore(e,o)},o.VERSION="0.0.1",o.SITEID="########-####-####-####-##########",e.addEventListener("load",()=>o.load("panel"),!1)}})();</script>
 ```
 
@@ -23,6 +23,9 @@ The PureIRL snippet is a block javascript code that needs to be placed in your w
 Next you will create an button and action for your website visitors to launch the `Find in store` experience along with a unique SKU for a variant (i.e. size/color/specific fitment).
 
 The SKU should be added to the button as a data attribute in the format: data-pureirl-sku="[variant sku]"
+
+By default 'Find in store' will launch with pre-selected options based on the product variant that matches the sku in the data-pureirl-sku attribute. You can override this with another data atrribute in the format: data-pureirl-preselect-enable=[ false ].
+Doing so will require the user to select all product options before any dealers or inventory will be presented. In this mode, the sku is only used to identify the parent product and is still required.
 
 ##### Sample:
 ```html
@@ -38,7 +41,7 @@ Here is a working example which can be installed to run locally during setup and
 
 ### Next Steps
 
-* If your products are found in dealers using a different SKU (such as one or several different) distributor skus, you will need to provide a mapping file to [support@pureirl.com](support@pureirl.com) containing the sku you use on your website mapped to the various skus that dealers may be using to sell this product. This can be provided in csv format and will need to be updated each time new products (please reach out to our team if you would like to automate the updates). 
+* If your products are found in dealers using a different SKU (such as one or several different) distributor skus, you will need to provide a mapping file to [support@pureirl.com](support@pureirl.com) containing the sku you use on your website mapped to the various skus that dealers may be using to sell this product. This can be provided in csv format and will need to be updated each time new products (please reach out to our team if you would like to automate the updates).
 
 * At time of implementation you provide the following information for skinning of the widget in the form of primary and secondary color using [RGB](https://www.w3schools.com/colors/colors_rgb.asp) values to [support@pureirl.com](support@pureirl.com).
 
