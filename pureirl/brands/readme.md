@@ -6,7 +6,7 @@ This document services as documentation for enabling Brand Partner websites to d
 
 ### 1. Provide products and mapping file
 
-Please send a copy of the SKUs on your website containing the Product URL, Product Name, Image URL  SKU/Part Number and a column for each alternate sku that shops use to reprsent your product (for example distributor sku). Send this to [support@puremoto.com](support@puremoto.com). Once this step is completed you will be sent a Site ID which is needed for Step 2.
+Please send a copy of the SKUs on your website containing the Product URL, Product Name, Image URL  SKU/Part Number and a column for each alternate sku that shops use to represent your product (for example distributor sku). Send this to [support@puremoto.com](support@puremoto.com). Once this step is completed you will be sent a Site ID which is needed for Step 2.
 
 ### 2. Install The PureMoto javascript snippet
 
