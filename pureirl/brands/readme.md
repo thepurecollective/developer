@@ -8,7 +8,7 @@ This document services as documentation for enabling Brand Partner websites to d
 
 Please send a copy of the SKUs on your website containing the Product URL, Product Name, Image URL  SKU/Part Number and a column for each alternate sku that shops use to reprsent your product (for example distributor sku). Send this to [support@puremoto.com](support@puremoto.com). Once this step is completed you will be sent a Site ID which is needed for Step 2.
 
-### 2. Install The PureIRL javascript snippet
+### 2. Install The PureMoto javascript snippet
 
 The PureMoto Wiedget snippet is a block javascript code that needs to be placed in your website product page template. Copy and paste it into your product page template above the closing </body> tag. Then, replace the SITEID ########-####-####-####-########## with the ID that was provided to you.
 
