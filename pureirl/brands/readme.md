@@ -10,7 +10,7 @@ Please send a copy of the SKUs on your website containing the Product URL, Produ
 
 ### 2. Install The PureMoto javascript snippet
 
-The PureMoto Wiedget snippet is a block javascript code that needs to be placed in your website product page template. Copy and paste it into your product page template above the closing </body> tag. Then, replace the SITEID ########-####-####-####-########## with the ID that was provided to you.
+The PureMoto Wiedget snippet is a block javascript code that needs to be placed in your website product page template. Copy and paste it into your product page template above the closing </body> tag. Then, replace the SITEID ########-####-####-####-########## with the ID that was provided to you. To work properly, please ensure that the snippet is only included once (1x) per page.
 
 ##### Snippet:
 
@@ -24,8 +24,7 @@ Next you will create an button and action for your website visitors to launch th
 
 The SKU should be added to the button as a data attribute in the format: data-pureirl-sku="[variant sku]"
 
-By default 'Find in store' will launch with pre-selected options based on the product variant that matches the sku in the data-pureirl-sku attribute. You can override this with another data attribute in the format: data-pureirl-preselect-enable=[ false ].
-Doing so will require the user to select all product options before any dealers or inventory will be presented. In this mode, the sku is only used to identify the parent product and is still required.
+By default 'Find in store' will launch with pre-selected options based on the product variant that matches the sku in the data-pureirl-sku attribute. This is the required method for fitment-based products. You can override this with another data attribute in the format: data-pureirl-preselect-enable=[ false ]. Doing so will require the user to select all product options inside the widget before any dealers or inventory will be presented. In this mode, the sku is only used to identify the parent product and is still required.
 
 ##### Sample:
 ```html
@@ -52,5 +51,8 @@ Your Site ID is restricted to your brand website root domain. You can test using
 
 ##### We use React/js and the script loads before we render the user selected SKU. How can we make this work?
 In this case you can call ```window.PureIRL._reset()``` after you know that the attribute has been rendered.
+
+##### Can I include multiple buttons on a page?
+Our recommendation is to have a single button per page where the consumer selects their options/fitment. However in a pinch or if you have a grid of fitment based SKUs on a page it is possible to include a button for each SKU.
 
 For any additional questions, plese contact [support@puremoto.com](support@puremoto.com).
