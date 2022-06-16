@@ -10,7 +10,7 @@ Please send a copy of the SKUs on your website containing the Product URL, Produ
 
 ### 2. Install The PureMoto javascript snippet
 
-The PureMoto Wiedget snippet is a block javascript code that needs to be placed in your website product page template. Copy and paste it into your product page template above the closing </body> tag. Then, replace the SITEID ########-####-####-####-########## with the ID that was provided to you. To work properly, please ensure that the snippet is only included once (1x) per page.
+The PureMoto Wiedget snippet is a block javascript code that needs to be placed in your website product page template. Copy and paste it into your product page template above the closing ```</body>``` tag. Then, replace the SITEID ########-####-####-####-########## with the ID that was provided to you. To work properly, please ensure that the snippet is only included once (1x) per page.
 
 ##### Snippet:
 
