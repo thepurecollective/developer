@@ -28,7 +28,7 @@ By default 'Find in store' will launch with pre-selected options based on the pr
 
 ##### Sample:
 ```html
-<button data-pureirl-sku="2010020-12-10">Find in-store</button>
+<button type="button" data-pureirl-sku="2010020-12-10">Find in-store</button>
 ```
 
 You can see a live example of this using the TRY IT OUT call to action [here](https://puremoto.com/irl/partners)
