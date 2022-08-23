@@ -36,7 +36,7 @@ You can see a live example of this using the TRY IT OUT call to action [here](ht
 ### Download a working example:
 
 Here is a working example which can be installed to run locally during setup and testing
-[puremoto-irl-local.zip](puremoto-network-widget.zip).
+[puremoto-network-widget.zip](puremoto-network-widget.zip).
 
 ### Next Steps
 
