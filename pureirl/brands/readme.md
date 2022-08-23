@@ -24,7 +24,7 @@ Next you will create an button and action for your website visitors to launch th
 
 The SKU should be added to the button as a data attribute in the format: data-pureirl-sku="[variant sku]"
 
-By default 'Find in store' will launch with pre-selected options based on the product variant that matches the sku in the data-pureirl-sku attribute. This is the required method for fitment-based products. You can override this with another data attribute in the format: data-pureirl-preselect-enable=[ false ]. Doing so will require the user to select all product options inside the widget before any dealers or inventory will be presented. In this mode, an indivdual variant sku is only used to identify the parent product and is still required.
+By default 'Find in store' will launch with pre-selected options based on the product variant that matches the sku in the data-pureirl-sku attribute. This is the required method for fitment-based products. You can override this with another data attribute in the format: data-pureirl-preselect-enable="false" . Doing so will require the user to select all product options inside the widget before any dealers or inventory will be presented. In this mode, an indivdual variant sku is only used to identify the parent product and is still required.
 
 ##### Sample:
 ```html
