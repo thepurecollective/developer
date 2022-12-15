@@ -6,7 +6,8 @@
 * The CSV file may optionally contain columns for quantity on order, description, and last count
 
 ### Required Column Header Names
-| Column Name   | Column Description                        |
+
+| Name          | Column Description                        |
 | ------------- | ----------------------------------------- |
 | part_number   | Part number/SKU used to identify the part |
 | qty_on_hand   | In-stock sellable quantity                |
@@ -16,7 +17,7 @@
 
 ### Optional Column Header Naming Format:
 
-| Column Name   | Column Description                                           |
+| Name          | Column Description                                           |
 | ------------- | ------------------------------------------------------------ |
 | qty_on_order  | Part quantity on order. Default value: 0                     |
 | description   | Part description. Default value: “”                          |
