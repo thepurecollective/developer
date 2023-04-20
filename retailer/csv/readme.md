@@ -21,13 +21,13 @@ This document outlines CSV file formatting and delivery methods for retailer inv
     * CSV files may optionally contain column headers for the following: quantity on order, part description, and last count date.
 
 * ### Required Column Header Naming Scheme:
-    | Name          | Column Description                        |
-    | ------------- | ----------------------------------------- |
-    | part_number   | Part number/SKU used to identify the part |
-    | qty_on_hand   | In-stock sellable quantity                |
-    | retail_price  | Price the part sells for                  |
-    | cost          | Cost of the part                          |
-    | supplier_code | Distributor/supplier code                 |
+| Name          | Column Description                        |
+| ------------- | ----------------------------------------- |
+| part_number   | Part number/SKU used to identify the part |
+| qty_on_hand   | In-stock sellable quantity                |
+| retail_price  | Price the part sells for                  |
+| cost          | Cost of the part                          |
+| supplier_code | Distributor/supplier code                 |
 
 * ### Optional Column Header Naming Scheme:
     | Name          | Column Description                                           | Column Data Type  | Default value | 
