@@ -1,0 +1,5 @@
+part_number,qty_on_hand,retail_price,cost,supplier_code,qty_on_order,description,last_count
+68-4321-168375,1,869.95,591.57,WPS,0,Sample part description,2/24/22
+68-4321-168374,0,869.95,591.57,WPS,0,Sample part description,2/24/22
+68-4321-168373,3,869.95,591.57,WPS,0,Sample part description,2/24/22
+68-4321-168372,2,869.95,591.57,WPS,0,Sample part description,2/24/22
