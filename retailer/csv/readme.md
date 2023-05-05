@@ -11,6 +11,7 @@ This document outlines CSV file formatting and delivery methods for retailer inv
  2. [Supported CSV Delivery Methods](#supported-csv-delivery-methods)
      1. [Email](#email)
      2. [SFTP](#sftp)
+     3. [Dropbox](#dropbox)
  3. [Important Notes](#important-notes)
 
 ## CSV File Structure
@@ -59,6 +60,15 @@ This document outlines CSV file formatting and delivery methods for retailer inv
     * **Note:** 
         * CSV inventory files are automatically deleted from the SFTP server upon successful upload and processing by the PureMoto network.
         * To receive email notifications when an inventory file fails to be processed due to an invalid format or if their inventory has expired on the network, they may provide PureMoto with an email address where notifications may be sent.
+* ### Dropbox:
+    * CSV inventory files may be submitted to the PureMoto network via Dropbox with or without a Dropbox account.
+        * Submitting files via Dropbox with a Dropbox account:
+            1. Provide PureMoto with the email address associated with your Dropbox account.
+            2. You will receive a shared folder invite via email where you can begin uploading your CSV inventory files to.
+        * Submitting files via Dropbox without a Dropbox account:
+            1. Provide PureMoto with an email address where you may receive dropbox share links.
+            2. You will receive a file request link via email where you can upload your CSV inventory files. 
+        * **Note:** Files uploaded will be automatically deleted from dropbox after they have been successfully processed and uploaded to the PureMoto network.
 
 ## Important Notes
 * All existing inventory on the PureMoto network will be expired if a CSV file is not received and successfully processed within a 72 hour period.
