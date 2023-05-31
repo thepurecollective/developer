@@ -33,6 +33,19 @@ By default 'Find in store' will launch with pre-selected options based on the pr
 
 You can see a live example of this using the TRY IT OUT call to action [here](https://puremoto.com/irl/partners)
 
+### 4. Enable the ‘Dealer Locator’ button
+
+The PureMoto Network widget offers a dealer locator feature that can be easily integrated into your website, similar to the "Find in store" button. This button should be placed in a prominent location on your website and will launch the dealer locator experience.
+
+Ensure that the button or link has the attribute `data-pureirl-locator="true"`. This attribute enables the functionality of the Dealer Locator.
+
+Once implemented, your customers will be able to access the Dealer Locator by clicking on the designated button or link. They can then utilize the filtering options to find nearby retailers based on ride type (Off-Road, Street, ADV, etc). The user can provide their current location or enter a zip code.
+
+##### Sample:
+```html
+<button type="button" data-pureirl-locator="true">Dealer Locator</button>
+```
+
 ### Download a working example:
 
 Here is a working example which can be installed to run locally during setup and testing
