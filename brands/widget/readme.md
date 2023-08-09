@@ -63,7 +63,7 @@ Here is a working example which can be installed to run locally during setup and
 Your Site ID is restricted to your brand website root domain. You can test using (like in the working example) localhost:3001 or localhost:3002 for testing purposes. If you have a staging or development site you would like to add to the whitelist - please provide that URL to your account manager.
 
 ##### We use React/js and the script loads before we render the user selected SKU. How can we make this work?
-In this case you can call ```window.PureIRL._reset()``` after you know that the attribute has been rendered.
+In this case you can call ```window.PureIRL.enableButtons()``` after you know that the attribute has been rendered.
 
 ##### Can I include multiple buttons on a page?
 Our recommendation is to have a single button per page where the consumer selects their options/fitment. However in a pinch or if you have a grid of fitment based SKUs on a page it is possible to include a button for each SKU.
