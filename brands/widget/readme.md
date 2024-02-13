@@ -2,7 +2,7 @@
 
 The PureMoto Network empowers local brick & mortar stores by surfacing inventory information directly to those customers at peak engagement. [Learn more.](https://puremoto.com/irl/partners)
 
-This document services as documentation for enabling Brand Partner websites to display live inventory levels for their products in local brick & mortar stores.
+This document serves as documentation for enabling Brand Partner websites to display live inventory levels for their products in local brick & mortar stores.
 
 ### 1. Provide products and mapping file
 
@@ -10,7 +10,7 @@ Please send a copy of the SKUs on your website containing the Product URL, Produ
 
 ### 2. Install The PureMoto javascript snippet
 
-The PureMoto Wiedget snippet is a block javascript code that needs to be placed in your website product page template. Copy and paste it into your product page template above the closing ```</body>``` tag. Then, replace the SITEID ########-####-####-####-########## with the ID that was provided to you. To work properly, please ensure that the snippet is only included once (1x) per page.
+The PureMoto Widget snippet is a block javascript code that needs to be placed in your website product page template. Copy and paste it into your product page template above the closing ```</body>``` tag. Then, replace the SITEID ########-####-####-####-########## with the ID that was provided to you. To work properly, please ensure that the snippet is only included once (1x) per page.
 
 ##### Snippet:
 
@@ -24,7 +24,7 @@ Next you will create an button and action for your website visitors to launch th
 
 The SKU should be added to the button as a data attribute in the format: data-pureirl-sku="[variant sku]"
 
-By default 'Find in store' will launch with pre-selected options based on the product variant that matches the sku in the data-pureirl-sku attribute. This is the required method for fitment-based products (tires excluded - they can still used this method). You can override this with another data attribute in the format: data-pureirl-preselect-enable="false" . Doing so will require the user to select all product options inside the widget before any dealers or inventory will be presented. In this mode, an indivdual variant sku is only used to identify the parent product and is still required.
+By default 'Find in store' will launch with pre-selected options based on the product variant that matches the sku in the data-pureirl-sku attribute. This is the required method for fitment-based products (tires excluded - they can still used this method). You can override this with another data attribute in the format: data-pureirl-preselect-enable="false". Doing so will require the user to select all product options inside the widget before any dealers or inventory will be presented. In this mode, an individual variant sku is only used to identify the parent product and is still required.
 
 ##### Sample:
 ```html
@@ -63,9 +63,9 @@ Here is a working example which can be installed to run locally during setup and
 Your Site ID is restricted to your brand website root domain. You can test using (like in the working example) localhost:3001 or localhost:3002 for testing purposes. If you have a staging or development site you would like to add to the whitelist - please provide that URL to your account manager.
 
 ##### We use React/js and the script loads before we render the user selected SKU. How can we make this work?
-In this case you can call ```window.PureIRL.enableButtons()``` after you know that the attribute has been rendered.
+In this case, you can call ```window.PureIRL.enableButtons()``` after you know that the attribute has been rendered.
 
 ##### Can I include multiple buttons on a page?
-Our recommendation is to have a single button per page where the consumer selects their options/fitment. However in a pinch or if you have a grid of fitment based SKUs on a page it is possible to include a button for each SKU.
+Our recommendation is to have a single button per page where the consumer selects their options/fitment. However, in a pinch or if you have a grid of fitment-based SKUs on a page it is possible to include a button for each SKU.
 
-For any additional questions, plese contact [support@puremoto.com](support@puremoto.com).
+For any additional questions, please contact [support@puremoto.com](support@puremoto.com).
